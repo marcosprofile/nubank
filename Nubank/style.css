@@ -1,0 +1,254 @@
+body {
+    font-family: "Graphik", sans-serif;
+        background-color: #F0D9FF;
+}
+
+.topo {
+    background-color: #830AD1;
+    width: 100%;
+    height: 135px;
+    border-radius: 38px 38px 0 0;
+}
+
+.camera {
+    background-color: black;
+    width: 80px;
+    height: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #9C03FE;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.svg {
+    position: absolute;
+    margin-left: 11px;
+}
+
+.notificacao {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #830ad1;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 0 0 60px 35px;
+    position: absolute;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 24px;
+}
+
+.absolute {
+    margin: 35px 0 0 230px;
+    position: absolute;
+}
+
+.absolute-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.user p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 910px;
+}
+
+.mobile {
+    border: 10px solid #000;
+    border-radius: 50px;
+    width: 400px;
+    height: 800px;
+    margin-top: 40px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.info {
+    width: 376px;
+    height: 126px;
+    padding: 15px 0 0px 24px;
+}
+
+.info h2 {
+    font-size: 22px;
+}
+
+#conta {
+    display: flex;
+    align-items: center;
+    gap: 260px;
+}
+
+.total {
+    margin-top: 0;
+}
+
+.galery-wrapper {
+    overflow-x: hidden;
+    margin-top: -16px;
+}
+
+.galery {
+    display: flex;
+    gap: 15px;
+    margin-left: 24px;
+    width: 410px;
+}
+
+.opcao-1, .opcao-2, .opcao-3, .opcao-4, .opcao-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #F0F1F5;
+    margin-right: 6px;
+}
+
+.nome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px 0 0 18px;
+    font-size: 12px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+.nome-1, .nome-2, .nome-3, .nome-4, .nome-5 {
+    width: 80px;
+    text-align: center;
+}
+
+.areas {
+    display: flex;
+    gap: 15px;
+    margin-left: 35px;
+    width: 410px;
+}
+
+.cartoes {
+    display: flex;
+    align-items: center;
+    width: 354px;
+    height: 65px;
+    background-color: #F0F1F5;
+    margin: 20px 24px 0 24px;
+    border-radius: 15px;
+}
+
+.meus-cartoes {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.seguradora {
+    display: flex;
+    width: 410px;
+}
+
+.seguro-de-vida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 83px;
+    background-color: #F0F1F5;
+    margin: 12px 0 0 24px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#fonte {
+    font-size: 21px;
+}
+
+.seguros {
+    display: flex;
+    margin-left: 26px;
+}
+
+nav {
+    width: 99.5%;
+    border: 1px solid #F0F1F5;
+    margin-top: 24px;
+}
+
+.credito {
+    display: flex;
+    align-items: center;
+    gap: 144px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 0 24px;
+}
+
+.fatura {
+    font-weight: 600;
+    margin: -16px 0 0 24px;
+}
+
+.fatura p {
+    font-size: 15px;
+    color: #727682;
+}
+
+.pagamento {
+    display: flex;
+    margin-left: 24px;
+    gap: 12px;
+}
+
+.pagar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #FF3962;
+    border-radius: 30px;
+    width: 120px;
+    height: 38px;
+    font-weight: 500;
+}
+
+.parcelar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: #F0F1F5;
+    border-radius: 30px;
+    width: 120px;
+    height: 38px;
+    font-weight: 500;
+}
